@@ -13,19 +13,19 @@ app.geometry("1000x600")
 app.title("Fotorobot")
 
 # --- Muusika ---
-pygame.mixer.init()
-pygame.mixer.music.load("dwarf.mp3")
+#pygame.init()
+#pygame.mixer.init()
+#pygame.mixer.music.load("dwarf1.mp3")
 
-def mängi_muusika():
-    pygame.mixer.music.play(-1)
+#def mängi_muusika():
+#    pygame.mixer.music.play(-1)
 
-def peata_muusika():
-    pygame.mixer.music.stop()
+#def peata_muusika():
+#    pygame.mixer.music.stop()
 
 # --- Näo osad ja indeksid ---
 kaustad = {
     "Frame": "FaceFrame",
-    "Podb": "FacePodb",
     "Eye": "FaceEye",
     "Nose": "FaceNose",
     "Lips": "FaceLips"
@@ -114,8 +114,8 @@ for osa in kaustad:
 muusika_frame = ctk.CTkFrame(frame, fg_color="transparent")
 muusika_frame.pack(pady=15)
 
-ctk.CTkButton(muusika_frame, text="▶ Mängi muusikat", command=mängi_muusika).pack(side="left", padx=5)
-ctk.CTkButton(muusika_frame, text="⏹ Peata", command=peata_muusika).pack(side="left", padx=5)
+#ctk.CTkButton(muusika_frame, text="▶ Mängi muusikat", command=mängi_muusika).pack(side="left", padx=5)
+#ctk.CTkButton(muusika_frame, text="⏹ Peata", command=peata_muusika).pack(side="left", padx=5)
 
 ctk.CTkButton(frame, text="💾 Salvesta pilt", command=salvesta, fg_color="#1e88e5").pack(pady=10)
 

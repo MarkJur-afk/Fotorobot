@@ -11,6 +11,8 @@
     <OutputPath>.</OutputPath>
     <Name>Fotorobot</Name>
     <RootNamespace>Fotorobot</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>Global|PythonCore|3.9</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -26,33 +28,37 @@
   <ItemGroup>
     <Folder Include="assets\" />
     <Folder Include="assets\FaceEye\" />
-    <Folder Include="assets\FaceFrame\" />
-    <Folder Include="assets\FaceLips\" />
     <Folder Include="assets\FaceNose\" />
-    <Folder Include="assets\FacePodb\" />
+    <Folder Include="assets\FaceLips\" />
+    <Folder Include="assets\FaceFrame\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\FaceEye\1.png" />
     <Content Include="assets\FaceEye\2.png" />
     <Content Include="assets\FaceEye\3.png" />
     <Content Include="assets\FaceEye\4.png" />
+    <Content Include="assets\FaceEye\5.png" />
+    <Content Include="assets\FaceEye\6.png" />
     <Content Include="assets\FaceFrame\1.png" />
     <Content Include="assets\FaceFrame\2.png" />
-    <Content Include="assets\FaceFrame\3.png" />
-    <Content Include="assets\FaceFrame\4.png" />
     <Content Include="assets\FaceLips\1.png" />
     <Content Include="assets\FaceLips\2.png" />
     <Content Include="assets\FaceLips\3.png" />
     <Content Include="assets\FaceLips\4.png" />
+    <Content Include="assets\FaceLips\5.png" />
+    <Content Include="assets\FaceLips\6.png" />
     <Content Include="assets\FaceNose\1.png" />
     <Content Include="assets\FaceNose\2.png" />
     <Content Include="assets\FaceNose\3.png" />
     <Content Include="assets\FaceNose\4.png" />
-    <Content Include="assets\FacePodb\1.png" />
-    <Content Include="assets\FacePodb\2.png" />
-    <Content Include="assets\FacePodb\3.png" />
-    <Content Include="assets\FacePodb\4.png" />
+    <Content Include="assets\FaceNose\5.png" />
+    <Content Include="assets\FaceNose\6.png" />
     <Content Include="dwarf.mp3" />
+    <Content Include="dwarf1.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.11" />
+    <InterpreterReference Include="Global|PythonCore|3.9" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
