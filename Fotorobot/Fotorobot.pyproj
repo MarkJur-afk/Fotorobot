@@ -12,7 +12,7 @@
     <Name>Fotorobot</Name>
     <RootNamespace>Fotorobot</RootNamespace>
     <IsWindowsApplication>False</IsWindowsApplication>
-    <InterpreterId>Global|PythonCore|3.9</InterpreterId>
+    <InterpreterId>Global|PythonCore|3.13</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,31 +33,32 @@
     <Folder Include="assets\FaceFrame\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\FaceEye\1.png" />
-    <Content Include="assets\FaceEye\2.png" />
-    <Content Include="assets\FaceEye\3.png" />
-    <Content Include="assets\FaceEye\4.png" />
-    <Content Include="assets\FaceEye\5.png" />
-    <Content Include="assets\FaceEye\6.png" />
-    <Content Include="assets\FaceFrame\1.png" />
-    <Content Include="assets\FaceFrame\2.png" />
-    <Content Include="assets\FaceLips\1.png" />
-    <Content Include="assets\FaceLips\2.png" />
-    <Content Include="assets\FaceLips\3.png" />
-    <Content Include="assets\FaceLips\4.png" />
-    <Content Include="assets\FaceLips\5.png" />
-    <Content Include="assets\FaceLips\6.png" />
-    <Content Include="assets\FaceNose\1.png" />
-    <Content Include="assets\FaceNose\2.png" />
-    <Content Include="assets\FaceNose\3.png" />
-    <Content Include="assets\FaceNose\4.png" />
-    <Content Include="assets\FaceNose\5.png" />
-    <Content Include="assets\FaceNose\6.png" />
+    <Content Include="assets\FaceEye\default.png" />
+    <Content Include="assets\FaceEye\mad.png" />
+    <Content Include="assets\FaceEye\happy.png" />
+    <Content Include="assets\FaceEye\girl.png" />
+    <Content Include="assets\FaceEye\boy.png" />
+    <Content Include="assets\FaceEye\sexy.png" />
+    <Content Include="assets\FaceFrame\man.png" />
+    <Content Include="assets\FaceFrame\woman.png" />
+    <Content Include="assets\FaceLips\default.png" />
+    <Content Include="assets\FaceLips\man.png" />
+    <Content Include="assets\FaceLips\angry.png" />
+    <Content Include="assets\FaceLips\woman.png" />
+    <Content Include="assets\FaceLips\sexy.png" />
+    <Content Include="assets\FaceLips\kiss.png" />
+    <Content Include="assets\FaceNose\naine.png" />
+    <Content Include="assets\FaceNose\pois.png" />
+    <Content Include="assets\FaceNose\vagasuur.png" />
+    <Content Include="assets\FaceNose\suur.png" />
+    <Content Include="assets\FaceNose\ilus.png" />
+    <Content Include="assets\FaceNose\väike.png" />
     <Content Include="dwarf.mp3" />
     <Content Include="dwarf1.mp3" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.11" />
+    <InterpreterReference Include="Global|PythonCore|3.13" />
     <InterpreterReference Include="Global|PythonCore|3.9" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
